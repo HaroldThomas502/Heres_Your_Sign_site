@@ -10,7 +10,6 @@ var questions = [
   ["Which show is bingeworthy?", "Game of Thrones", "The Walking Dead", "Fuller House"]
   ];
 
-
 // this get function is a shortcut for the getElementByID method
 
 function get(ix){
@@ -22,7 +21,9 @@ function writeQuestion(){
   yoursign = "Reserved for Disabled Parking";
   if(pos >= questions.length){
     test.innerHTML = "<h2>Thank You for Taking This Survey</h2>";
-	if (result < 5) {
+	if (result < 1) {
+	  yoursign = "Reserved for Disabled Parking";
+	} else if (result < 5) {
 	  yoursign = "Stop";
 	} else if (result < 9) {
 	  yoursign = "Proceed With Caution";
@@ -67,6 +68,7 @@ function checkReply(){
   pos++;
 
   writeQuestion();
+
 }
 
 window.addEventListener("load", writeQuestion, false);
