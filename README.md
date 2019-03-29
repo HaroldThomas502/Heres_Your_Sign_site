@@ -6,6 +6,8 @@ Survey site to determine your sign
 
 A responsive web site utilizing custom CSS  and JavaScript that surveys user and determines sign based on responses.
 
+This site can currently be viewed at the live URL https://haroldthomas502.github.io/
+
 ## Custom CSS Classes
 
 The class(es) I created are:
