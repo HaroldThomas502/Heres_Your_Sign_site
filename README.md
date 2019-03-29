@@ -29,6 +29,7 @@ Utilizes flex-direction to reverse the stacking order of containers when page re
 The javascript functions I created are:
 
 1. Get
+
 This is a shorthand function for getElementByID.  Saw this used in Treehouse and realized that it can be useful sometimes to write smaller, cleaner, easier to read (and write) code.
 
 2. checkReply
