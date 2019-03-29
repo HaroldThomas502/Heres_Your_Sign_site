@@ -23,7 +23,7 @@ Defines screen width percentage, border attributes, padding and background color
 Utilizes flex-direction to reverse the stacking order of containers when page responds to a smaller window width.
 
 ## Custom JavaScript Functions
-```
+
 The javascript functions I created are:
 
 1. Get
